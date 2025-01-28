@@ -3,6 +3,11 @@ body {
   
 }
 
+row {
+  margin: 5px;
+}
+
 type {
-  
+  width:200%
+  height:200%
 }
