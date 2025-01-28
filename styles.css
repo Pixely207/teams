@@ -4,7 +4,8 @@ body {
 }
 
 img {
-  float: right;
+  display: block;
+  margin-left: auto;
 }
 
 row {
