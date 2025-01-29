@@ -17,9 +17,9 @@ img {
   text-align: left;
 }
 
-#.type {
-  width:200%;
-  height:200%;
+.type {
+  width:150%;
+  height:150%;
   text-align: left;
   transition: transform .2s;
 }
