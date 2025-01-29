@@ -23,11 +23,12 @@ img {
 }
 
 .type {
-  transition: 0.2s; /* Added 's' for seconds */
+  display: inline-block; /* Allow scaling without floating */
+  transition: transform 0.2s; /* Smooth transform transition */
 }
 
 .type:hover {
   filter: saturate(200%);
-  transform: scale(1.1);
+  transform: scale(1.1); /* Increase size on hover */
   cursor: pointer;
 }
