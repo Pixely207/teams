@@ -1,28 +1,33 @@
 body {
   background-color: black;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 .main {
   margin: auto;
   outline-style: solid;
+  text-align: center; /* Center text */
 }
 
 img {
-  float: left;
-  text-align: left;
+  display: block; /* Remove float */
+  margin: 0 auto; /* Center image */
 }
 
 .row {
-  text-align: left;
+  text-align: center; /* Center text */
 }
 
 .type {
-  transition: 0.2;
+  transition: 0.2s; /* Added 's' for seconds */
 }
 
-.type:hover{
-    filter: saturate(200%);
-    transform: scale(1.1);
-    cursor: pointer;
+.type:hover {
+  filter: saturate(200%);
+  transform: scale(1.1);
+  cursor: pointer;
 }
