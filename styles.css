@@ -18,8 +18,5 @@ img {
 }
 
 .type {
-  width:150%;
-  height:150%;
-  text-align: left;
-  transition: transform .2s;
+  
 }
