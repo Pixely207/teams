@@ -22,4 +22,9 @@ type {
   height:200%;
   margin: 50px;
   text-align: left;
+  transition: transform .2s;
+}
+
+type {
+  transform: scale(1.1);
 }
