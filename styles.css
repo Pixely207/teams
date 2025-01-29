@@ -5,13 +5,16 @@ body {
 
 img {
   float: right;
+  text-align: left;
 }
 
 row {
   margin: 5px;
+  text-align: left;
 }
 
 type {
-  width:200%
-  height:200%
+  width:200%;
+  height:200%;
+  text-align: left;
 }
