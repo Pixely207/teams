@@ -3,13 +3,17 @@ body {
   
 }
 
+main {
+  margin:auto;
+}
+
 img {
   float: right;
   text-align: left;
 }
 
 row {
-  margin: 5px;
+  margin: 50px;
   text-align: left;
 }
 
