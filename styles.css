@@ -2,7 +2,6 @@ body {
   background-color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh; /* Full viewport height */
   margin: 0; /* Remove default margin */
 }
