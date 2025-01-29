@@ -9,12 +9,12 @@ main {
 
 img {
   float: right;
-  text-align: left;
+  text-align: right;
 }
 
 row {
   margin: 50px;
-  text-align: left;
+  text-align: right;
 }
 
 type {
