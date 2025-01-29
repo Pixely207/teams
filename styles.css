@@ -14,12 +14,12 @@ img {
 }
 
 row {
-  margin: 50px;
   text-align: left;
 }
 
 type {
   width:200%;
   height:200%;
+  margin: 50px;
   text-align: left;
 }
