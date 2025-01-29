@@ -8,13 +8,13 @@ main {
 }
 
 img {
-  float: right;
-  text-align: right;
+  float: left;
+  text-align: left;
 }
 
 row {
   margin: 50px;
-  text-align: right;
+  text-align: left;
 }
 
 type {
