@@ -3,7 +3,7 @@ body {
   
 }
 
-main {
+.main {
   margin:auto;
   outline-style: solid;
 }
@@ -13,11 +13,11 @@ img {
   text-align: left;
 }
 
-row {
+.row {
   text-align: left;
 }
 
-type {
+.type {
   width:200%;
   height:200%;
   margin: 50px;
@@ -25,6 +25,6 @@ type {
   transition: transform .2s;
 }
 
-type:hover {
+.type:hover {
   transform: scale(1.1);
 }
