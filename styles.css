@@ -17,13 +17,9 @@ img {
   text-align: left;
 }
 
-.type {
+#.type {
   width:200%;
   height:200%;
   text-align: left;
   transition: transform .2s;
-}
-
-.type:hover {
-  transform: scale(1.1);
 }
