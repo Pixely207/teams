@@ -5,6 +5,7 @@ body {
 
 main {
   margin:auto;
+  outline-style: solid;
 }
 
 img {
