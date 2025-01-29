@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-  margin:auto;
+  margin: auto;
   outline-style: solid;
 }
 
@@ -18,5 +18,11 @@ img {
 }
 
 .type {
-  
+  transition: 0.2;
+}
+
+.type:hover{
+    filter: saturate(200%);
+    transform: scale(1.1);
+    cursor: pointer;
 }
