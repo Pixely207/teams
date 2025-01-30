@@ -2,28 +2,28 @@ body {
   background-color: black;
   display: flex;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default margin */
+  height: 100vh; 
+  margin: 0; 
 }
 
 .main {
   margin: auto;
   outline-style: solid;
-  text-align: center; /* Center text */
+  text-align: center; 
 }
 
 img {
-  display: block; /* Remove float */
-  margin: 0 auto; /* Center image */
+  display: block; 
+  margin: 0 auto; 
 }
 
 .row {
-  text-align: center; /* Center text */
+  text-align: center; 
 }
 
 .type {
-  display: inline-block; /* Allow scaling without floating */
-  transition: transform 0.2s; /* Smooth transform transition */
+  display: inline-block; 
+  transition: transform 0.2s; 
 }
 
 .type:hover {
